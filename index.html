@@ -17,16 +17,24 @@
 				<div class="bg bg3"></div>
         <div class="card centered fadeInLoad" >
             <div class="container">
-                <img src="assets/css/prof.jpg" class="profile"></img>
+                <img src="assets/css/prof.png" class="profile"></img>
                 <p class="name">Anurag Dubey</p>
                 <p class="info"><span class="link">CSE</span> Grad from <span class="link">KIET, Ghaziabad</p></span>
 	        <p class="info"><span class="link">SDE2</span> @ <span class="link">Ameyo</p></span>
-                <a href="mailto:dubey.anurag97@outlook.com" class="btn"> <i class="fa fa-envelope-o fa-2x"></i> </a>
+                <a id="mail" class="btn"> <i class="fa fa-envelope-o fa-2x"></i> </a>
                 <a href="https://drive.google.com/open?id=1VZZ-tCtb86RUdFsxyL3Ch5Rm0r4D1Ggr" class="btn"> <i class="fa fa-file-text-o fa-2x"></i> </a>
                 <a href="https://www.linkedin.com/in/dubey-anurag" class="btn"> <i class="fa fa-linkedin fa-2x"></i> </a>
                 <a href="http://github.com/dubeyanurag" class="btn"> <i class="fa fa-github-alt fa-2x"></i> </a>
             </div>
         </div>
     </body>
+    <script>
+	var mail = "mai"+"lto";
+	var namepart = "dubey.anurag97";
+	var domainpart = "outlook";
+	var tld = "com"; 
+	var address = namepart + "@" + domainpart + "." + tld;
+	document.getElementById("mail").href = mail + ":" + address;
+    </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </html>
